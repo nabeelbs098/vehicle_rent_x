@@ -124,3 +124,4 @@ public class LoginFrame {
         SwingUtilities.invokeLater(LoginFrame::new);
     }
 }
+{}
