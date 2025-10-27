@@ -18,7 +18,7 @@ public class Vehicle {
     public Vehicle(String name, String type, boolean available, String customerName) {
         this(0, name, type, available, customerName);
     }
-
+    {
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
     public String getName() { return name; }
@@ -29,6 +29,7 @@ public class Vehicle {
     public void setAvailable(boolean available) { this.available = available; }
     public String getCustomerName() { return customerName; }
     public void setCustomerName(String customerName) { this.customerName = customerName; }
-    
 }
+}
+
 
